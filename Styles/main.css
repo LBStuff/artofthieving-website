@@ -1,7 +1,43 @@
 html {
     background-color: darkgrey;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
-li {
-    display: inline;
+body {
+    margin-top: auto;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+/* Linkies */
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-body {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 24px;
 }
